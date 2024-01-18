@@ -1,0 +1,122 @@
+
+.Art-in-kids{
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+.art-image-container{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+
+.Art-container {
+    background-color: #0a0a0a;
+    border-radius: 10px;
+    border: 2px solid #f0c60b;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 80px auto 20px; /* Adjust margin values */
+}
+
+.Art-container h1{
+    font-family: 'CAT Altgotisch', sans-serif;
+    font-size: 100px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+
+.art-title{
+    font-size: 24px;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+.Asian-title{
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family: 'Egg Roll Halftone', sans-serif;
+}
+
+.Qual-font{
+    font-size: 28px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family: 'Egg Roll Halftone', sans-serif;
+}
+
+.French-title {
+    font-size: 28px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family: 'Zounderkite Punch Italic', sans-serif;
+}
+
+.Garden-font{
+    font-size: 23px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family: 'Zounderkite Punch Italic', sans-serif;
+}
+
+.Ancient-title{
+    font-size: 23px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    
+}
+
+.Ancient-font{
+    font-size: 23px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family: 'Praetoria', sans-serif;
+}
+
+.Ancient-title{
+    font-size: 23px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family: 'Praetoria', sans-serif;
+}
+
+.show-art-button {
+    background: linear-gradient(to bottom,  #f0c60b, black);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    margin-right: 15px;
+}
+
+.show-art-button:hover {
+    background-color: #e2df2c;
+}
+
+
+.scroll-image {
+    border-radius: 10px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    height: 1000px;
+}

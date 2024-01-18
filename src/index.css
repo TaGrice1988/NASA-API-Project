@@ -1,0 +1,134 @@
+
+  
+  .container {
+    background-color: #0a0a0a;
+    border-radius: 10px;
+    border: 2px solid #3498db;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 700px;
+    margin: 80px auto 20px; /* Adjust margin values */
+  }
+
+  .container h1{
+    color: white;
+  }
+
+  .nasa-image{
+    width: 150px;
+  }
+
+  .nasa-image-container{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+  }
+
+  .apod-button {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    margin-right: 15px;
+  }
+  
+  .apod-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .apod-title {
+    font-size: 24px;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 1px;
+  }
+  
+  .apod-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .apollo-launch{
+    width: 100%;
+  }
+  
+  .apod-image {
+    border-radius: 10px;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .apod-img-date{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .apod-description {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    color: rgb(243, 201, 84);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 13px;
+    letter-spacing: 1px; 
+    font-family: 'Star Wars', sans-serif;
+  }
+
+  .apollo-description{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    color: rgb(241, 241, 237);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+
+  .image-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.arrow-button {
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.arrow-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.safe-return-section img{
+  margin-top: 20px;
+}
+
+.neil-foot-section{
+  margin-top: 20px;
+}

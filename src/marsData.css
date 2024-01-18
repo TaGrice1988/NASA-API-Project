@@ -1,0 +1,118 @@
+/* mars.css */
+
+/* Mars Exploration Section */
+.mars-container {
+    background-color: #262626;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid  #e8702a;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mars-container h1 {
+    font-family: 'MarsFont', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: rgba(232, 112, 42, 0.1);
+    border: 2px solid #e8702a;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .mars-container h2{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #70e82a;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .hide-mars-button {
+    background-color: #e8702a;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .arrow-button{
+    background-color: #e8702a;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .arrow-button:hover {
+    background-color: #d45a1e;
+    transform: scale(1.05);
+  }
+
+  .hide-mars-button:hover {
+    background-color: #d45a1e;
+    transform: scale(1.05);
+  }
+  
+  .apod-button-mars:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .apod-title-mars {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #e8702a;
+    text-align: center; /* Add this line to center the text */
+  }
+  
+  .content-mars {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Add this line to center the content */
+    max-width: 600px;
+  }
+  
+  .image-mars {
+    border-radius: 10px;
+    max-width: 60%;
+    margin-bottom: 15px;
+    border: 2px solid #70e82a;
+      margin: 0 auto; /* Add this line to center the image horizontally */
+  }
+  
+  .description-mars {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgba(232, 112, 42, 0.1);
+    border: 2px solid #e8702a;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Gradient Border */
+  .gradient-border {
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #70e82a, #58d41e);
+    border-image: linear-gradient(to right, #e8702a, #d45a1e);
+    border-image-slice: 1;
+  }

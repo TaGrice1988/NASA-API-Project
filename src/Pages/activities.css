@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Activities-container {
+    background-color: #0a0a0a;
+    border-radius: 10px;
+    border: 2px solid #3498db;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 700px;
+    margin: 80px auto 20px; /* Adjust margin values */
+}
+
+.Activities-container h1{
+    color: white;
+    font-family: 'Lazenby Computer', sans-serif;
+    border-radius: 3px;
+    border: 3px solid #ffffff;
+    background-color: #3094f1;
+    height: 50px;
+    font-family: 'SF Sports Night', sans-serif;
+    letter-spacing: 2px;
+    line-height: 50px; /* Should match the height value */
+    text-align: center; /* Center the text horizontally */
+}
+
+
+.Programming-title{
+    font-size: 23px;
+    margin-top: 20px;
+    color: rgb(73, 241, 58);
+    letter-spacing: 1px;
+    font-family: 'Lazenby Computer', sans-serif;
+    margin-top: 50px;
+}
+
+.Programming-description{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(73, 241, 58);
+    letter-spacing: 1px;
+    font-family: 'Lazenby Computer', sans-serif;
+}
+
+.Programming-link {
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(73, 241, 58);
+    letter-spacing: 1px;
+    font-family: 'Lazenby Computer', sans-serif;
+}
+
+.Programming-link:hover{
+    color: #eb2a2a; /* Change link color when hovered over */
+}
+
+.Language-title{
+    font-size: 23px;
+    margin-top: 20px;
+    color: rgb(32, 146, 240);
+    letter-spacing: 1px;
+    font-family: 'Soviet Expanded', sans-serif;
+    margin-top: 80px;
+}
+
+.Language-description{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(32, 146, 240);
+    letter-spacing: 1px;
+    font-family: 'Soviet Expanded', sans-serif;
+}
+
+.Language-link {
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(32, 146, 240);
+    letter-spacing: 1px;
+    font-family: 'Soviet Expanded', sans-serif;
+}
+
+.Language-link:hover{
+    color: #ffffff; /* Change link color when hovered over */
+}
+
+/* Default link styles */
+a {
+    color: #3498db; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Add a smooth transition for color changes */
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #ffffff; /* Change link color when hovered over */
+}
